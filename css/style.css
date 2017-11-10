@@ -77,18 +77,6 @@ nav .link.active {
   color: black;
 }
 
-.project-container {
-  display: flex;
-  flex-direction: column;
-  margin: 25px auto;
-  max-width: 1080px;
-}
-
-.project-img,
-.project-text {
-  margin: 25px;
-}
-
 footer {
   display: flex;
   align-items: center;
@@ -96,14 +84,4 @@ footer {
   border-top: 1px solid #ddd;
   margin-top: 25px;
   padding: 25px 0 50px;
-}
-
-@media (min-width: 768px) {
-  .project-container {
-    flex-direction: row;
-  }
-
-  .project-img {
-    min-width: 350px;
-  }
 }
